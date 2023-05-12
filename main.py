@@ -107,6 +107,22 @@ for i in range(0,len(s)-1):
 print(k,mx)
 """
 ### АЙТИ
+#1
+"""
+# Перевод числа 1011,01 из двоичной в десятичную
+binary_num = "1011.01"
+decimal_num_1 = int(binary_num, 2)
+
+# Прибавление числа 24,6 из восьмеричной системы счисления
+octal_num = "24.6"
+decimal_num_2 = int(octal_num, 8)
+result = decimal_num_1 + decimal_num_2
+
+# Перевод ответа в шестнадцатеричную систему счисления
+hex_num = hex(int(result))
+
+print("Ответ: ", hex_num)
+"""
 #4
 """
 for N in range(1,1000):
